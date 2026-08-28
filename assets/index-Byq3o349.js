@@ -28,11 +28,12 @@
       </div>
       <div class="branch-shade" aria-hidden="true"></div>
       <div class="portal-scene master-portal active" data-portal-scene="master">
-        <div class="master-instruction"><p class="eyebrow">MAIN PAGE / ROTATE TO SELECT</p><h1>旋转选择<br>业务分支</h1><p>总主页 · 三个一级分支</p></div>
+        <div class="master-instruction"><p class="eyebrow">HZD / THREE ENTRANCES</p><h1><span>选择</span><span>进入</span></h1><p>旋转浏览三个一级分支</p></div>
         <div class="service-orbit-wrap master-orbit-wrap" data-service-orbit>
+          <div class="orbit-coordinate" aria-hidden="true"><span>N</span><i></i><small>ROTATE</small></div>
           <button class="orbit-arrow orbit-prev" type="button" aria-label="上一个一级分支" data-orbit-prev>←</button>
-          <div class="service-orbit master-orbit" aria-label="总主页三个业务分支">
-            ${n.map((e,t)=>`<button class="orbit-node primary-orbit-node ${t===0?`active`:``}" type="button" data-service-node="${t}" style="--node-index:${t};--node-count:${n.length}" aria-pressed="${t===0}"><small>分支 ${e.n}</small><span>${e.title}</span></button>`).join(``)}
+          <div class="service-orbit master-orbit" role="group" aria-label="总主页三个业务分支">
+            ${n.map((e,t)=>`<button class="orbit-node primary-orbit-node ${t===0?`active`:``}" type="button" data-service-node="${t}" style="--node-index:${t};--node-count:${n.length}" aria-pressed="${t===0}"><small>${e.n}</small><span>${e.title}</span></button>`).join(``)}
             <div class="orbit-core" aria-hidden="true"><span>HZD</span><small>SELECT</small></div>
           </div>
           <button class="orbit-arrow orbit-next" type="button" aria-label="下一个一级分支" data-orbit-next>→</button>
@@ -40,8 +41,9 @@
         <div class="orbit-details primary-details" aria-live="polite">
           <article class="orbit-detail active" data-service-detail="0"><small>分支 01 / DESIGN SERVICES</small><h2>我们的设计服务板块</h2><nav aria-label="我们的设计服务板块子菜单"><a href="/services#process" data-link><span><b>设计流程说明</b><em>合作须知 · 关于我们 · 服务流程及收费标准</em></span>${c}</a><a href="/projects" data-link><span><b>作品展示及获奖展示</b><em>室内 · 工装 · 室外园林 · 国外项目</em></span>${c}</a></nav></article>
           <article class="orbit-detail" data-service-detail="1"><small>分支 02 / PAID CONSULTATION</small><h2>设计付费咨询</h2><nav aria-label="设计付费咨询子菜单"><a href="/consultation?type=home" data-link><span><b>家装咨询</b></span>${c}</a><a href="/consultation?type=commercial" data-link><span><b>工装咨询</b></span>${c}</a></nav></article>
-          <article class="orbit-detail" data-service-detail="2"><small>分支 03 / SOFIA × HZD</small><h2>索菲亚总部大宅设计工作室<br>× 珩筑空间设计业务板块</h2><p>使用客户指定室内图片，动态进入合作空间后选择细分内容。</p><button class="enter-sofia-space" type="button" data-enter-sofia><span>进入室内合作空间</span>${c}</button></article>
+          <article class="orbit-detail" data-service-detail="2"><small>分支 03 / SOFIA × HZD</small><h2>索菲亚总部大宅设计工作室<br>× 珩筑空间设计业务板块</h2><button class="enter-sofia-space" type="button" data-enter-sofia><span>进入室内合作空间</span>${c}</button></article>
         </div>
+        <div class="master-meta" aria-hidden="true"><span>GUANGZHOU · CHINA</span><span>SPACE / MATERIAL / LIFE</span></div>
       </div>
       <div class="portal-scene sofia-portal" data-portal-scene="sofia" aria-hidden="true">
         <button class="back-to-master" type="button" data-back-master>← 返回总主页三个分支</button>
