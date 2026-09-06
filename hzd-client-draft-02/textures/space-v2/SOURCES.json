@@ -1,0 +1,63 @@
+{
+  "retrievedAt": "2026-09-06",
+  "provider": "Poly Haven",
+  "license": "CC0-1.0",
+  "licenseUrl": "https://polyhaven.com/license",
+  "apiTermsUrl": "https://github.com/Poly-Haven/Public-API/blob/master/ToS.md",
+  "apiUserAgent": "HZD-Material-Study/1.0",
+  "runtimeApiRequests": false,
+  "assets": [
+    {
+      "id": "wool_boucle",
+      "page": "https://polyhaven.com/a/wool_boucle",
+      "infoApi": "https://api.polyhaven.com/info/wool_boucle",
+      "filesApi": "https://api.polyhaven.com/files/wool_boucle",
+      "authors": { "colormass": "Photography", "Rico Cilliers": "Processing" },
+      "sourceDimensionsMillimetres": [314.78237097288206, 390.10000228881836],
+      "files": [
+        { "file": "wool_boucle_diff_2k.jpg", "channel": "color", "resolution": "2k", "bytes": 4608820, "md5": "f9eeefa58c822396d246e97eb58a837b", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wool_boucle/wool_boucle_diff_2k.jpg" },
+        { "file": "wool_boucle_nor_gl_2k.jpg", "channel": "normal_gl", "resolution": "2k", "bytes": 4679310, "md5": "9ac0c769e699e0336d43be2e47ef97a7", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/wool_boucle/wool_boucle_nor_gl_2k.jpg" },
+        { "file": "wool_boucle_rough_1k.jpg", "channel": "roughness", "resolution": "1k", "bytes": 1272361, "md5": "48bfe3aac53735ada81add2f1054a3f5", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/wool_boucle/wool_boucle_rough_1k.jpg" }
+      ]
+    },
+    {
+      "id": "smoked_walnut_veneer",
+      "page": "https://polyhaven.com/a/smoked_walnut_veneer",
+      "infoApi": "https://api.polyhaven.com/info/smoked_walnut_veneer",
+      "filesApi": "https://api.polyhaven.com/files/smoked_walnut_veneer",
+      "authors": { "Jenelle van Heerden": "All" },
+      "sourceDimensionsMillimetres": [1000, 1000],
+      "files": [
+        { "file": "smoked_walnut_veneer_diff_2k.jpg", "channel": "color", "resolution": "2k", "bytes": 2136850, "md5": "9a4cd76d1eda59b6d2b8ec88214658d2", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/smoked_walnut_veneer/smoked_walnut_veneer_diff_2k.jpg" },
+        { "file": "smoked_walnut_veneer_nor_gl_2k.jpg", "channel": "normal_gl", "resolution": "2k", "bytes": 1679452, "md5": "8dac5b00f7b2f7c6108845646728ff7a", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/smoked_walnut_veneer/smoked_walnut_veneer_nor_gl_2k.jpg" },
+        { "file": "smoked_walnut_veneer_rough_1k.jpg", "channel": "roughness", "resolution": "1k", "bytes": 408443, "md5": "cfcb3f188b2b231996795bd19fb8d03a", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/smoked_walnut_veneer/smoked_walnut_veneer_rough_1k.jpg" }
+      ]
+    },
+    {
+      "id": "plaster_grey_04",
+      "page": "https://polyhaven.com/a/plaster_grey_04",
+      "infoApi": "https://api.polyhaven.com/info/plaster_grey_04",
+      "filesApi": "https://api.polyhaven.com/files/plaster_grey_04",
+      "authors": { "Rob Tuytel": "All" },
+      "sourceDimensionsMillimetres": [1500, 1500],
+      "files": [
+        { "file": "plaster_grey_04_diff_1k.jpg", "channel": "color", "resolution": "1k", "bytes": 456938, "md5": "bc8a1530a637d36865f90c86391c75c4", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plaster_grey_04/plaster_grey_04_diff_1k.jpg" },
+        { "file": "plaster_grey_04_nor_gl_1k.jpg", "channel": "normal_gl", "resolution": "1k", "bytes": 983244, "md5": "d1ada132c3eea7bee3abe7624c592391", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plaster_grey_04/plaster_grey_04_nor_gl_1k.jpg" },
+        { "file": "plaster_grey_04_rough_1k.jpg", "channel": "roughness", "resolution": "1k", "bytes": 370366, "md5": "ef0f4120c0b1085db4f6a08f7a0b197d", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/plaster_grey_04/plaster_grey_04_rough_1k.jpg" }
+      ]
+    },
+    {
+      "id": "marble_01",
+      "page": "https://polyhaven.com/a/marble_01",
+      "infoApi": "https://api.polyhaven.com/info/marble_01",
+      "filesApi": "https://api.polyhaven.com/files/marble_01",
+      "authors": { "Rob Tuytel": "All" },
+      "sourceDimensionsMillimetres": [1500, 1500],
+      "files": [
+        { "file": "marble_01_diff_2k.jpg", "channel": "color", "resolution": "2k", "bytes": 1269188, "md5": "4eeefea16242cecb3b429ac0c8f88740", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_diff_2k.jpg" },
+        { "file": "marble_01_nor_gl_2k.jpg", "channel": "normal_gl", "resolution": "2k", "bytes": 409581, "md5": "f25efb0b61ec7ac183b3b0f4d032ed17", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/2k/marble_01/marble_01_nor_gl_2k.jpg" },
+        { "file": "marble_01_rough_1k.jpg", "channel": "roughness", "resolution": "1k", "bytes": 91848, "md5": "59cef1be1b7376c9d0dcc7a64adf7882", "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/marble_01/marble_01_rough_1k.jpg" }
+      ]
+    }
+  ]
+}
